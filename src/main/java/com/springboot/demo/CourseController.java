@@ -35,7 +35,7 @@ public class CourseController {
     public void update(@RequestBody Course course){courseService.update(course);}
 
     @RequestMapping(value = "/find")
-    public void findCourse() {
+    public void editCourse() {
 
     }
 }
